@@ -1,0 +1,40 @@
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#intro{
+    display: flex;
+    align-items: space-between;
+}
+header{
+      position: sticky;
+      color: yellow;
+      top: 0;
+      padding: 5px;
+      background-image: url('tortuga_verde.jpg');
+      border: 2px solid red;
+      width: 100%;
+      max-width: 1010px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: no-wrap;
+}
+#rhinolopus{
+    background-image: url('rhinolophus_mehelyi.jpg');
+    height: 168px;
+    width: 300px;
+}
+#lutra{
+    background-image: url('lutra_lutra.jpg');
+    height: 225px;
+    width: 300px;
+}
+#caretta{
+    background-image: url('Loggerhead_turtle.jpg');
+    height: 338px;
+    width: 450px;
+}
