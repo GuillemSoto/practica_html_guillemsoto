@@ -1,4 +1,3 @@
-
 body{
     background-color: black;
     color: white;
@@ -11,17 +10,17 @@ body{
     align-items: space-between;
 }
 header{
-      position: sticky;
-      color: yellow;
-      top: 0;
-      padding: 5px;
-      background-image: url('tortuga_verde.jpg');
-      border: 2px solid red;
-      width: 100%;
-      max-width: 1010px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: no-wrap;
+    position: sticky;
+    color: yellow;
+    top: 0;
+    padding: 5px;
+    background-image: url('tortuga_verde.jpg');
+    border: 2px solid red;
+    width: 100%;
+    max-width: 1010px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
 }
 #rhinolopus{
     background-image: url('rhinolophus_mehelyi.jpg');
@@ -37,4 +36,9 @@ header{
     background-image: url('Loggerhead_turtle.jpg');
     height: 338px;
     width: 450px;
+}
+.transit{
+    color: red;
+    font-size: 300%;
+    transition: 5s;
 }
