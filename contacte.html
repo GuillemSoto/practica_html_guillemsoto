@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>contact</title>
+  <script src="./contacte.js" type="module"></script>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<section>
+  <h1>EPEPC</h1>
+  <ul>
+    <li><a href="./index.html">Inici</a> </li>
+    <li><a href="./llistat.html">Llistat</a> </li>
+    <li><a href="#">Contacte</a> </li>
+  </ul>
+</section>
+<section>
+  <h2 id="contacte">Contacte</h2>
+  <form action="./index.html" id="formulari" method="post">
+    <div id="errors"></div>
+    <div>
+      <label for="name">Nom:</label>
+      <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+      <label for="mail">Email:</label>
+      <input type="text" id="mail" name="user_mail">
+    </div>
+    <div>
+      <label for="assumpte">Assumpte:</label>
+      <input type="text" id="assumpte" name="assumpte">
+    </div>
+    <div>
+      <label for="body">Cos del missatge:</label>
+      <input type="text" id="body" name="mail_body">
+    </div>
+    <div class="button">
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</section>
+<section>
+  <h2>Llicència</h2>
+  <p>Pàgina web creada per Mar Pi</p>
+  <p>Llicència <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ca">Creative Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
+</section>
+<section>
+  <h2>Segueix-nos</h2>
+  <ul>
+    <li><a href="https://joinmastodon.org/es">Mastodon</a></li>
+    <li><a href="https://diasporafoundation.org/">Diaspora</a></li>
+  </ul>
+</section>
+</body>
+</html>
